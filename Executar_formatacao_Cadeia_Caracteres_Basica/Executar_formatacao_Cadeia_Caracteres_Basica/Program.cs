@@ -51,9 +51,20 @@ Console.WriteLine(@"c:\invoices\app.exe -j");
 // -------------------------- >>>>> Desafio <<<<<< --------------------------------- \\
 
 
+//string projectName = "ACME";
+//string englishLocation = "View english output:\n";
+
+
+//Console.WriteLine($@"{englishLocation}
+//    c:\Exercise\{projectName}\data.txt");
+
+//Console.WriteLine($@"{russianMessage}
+//    c:\Exercise\{projectName}\data.txt");
+
 string projectName = "ACME";
-string englishMessage = "View english output:";
-string russianMessage = "\u041f\u043e\u0441\u043e";
+string englishLocation = $@"c:\Exercise\{projectName}\data.txt";
+Console.WriteLine($"view English output: \n\t\t{englishLocation}\n");
 
-Console.WriteLine($@"{englishMessage}\nc:\Exercise\{projectName}\data.txt");
-
+string russianMessage = "\u041f\u043e\u0441\u043e\u0442\u0440\u0435\u0442\u044c \u0440\n";
+string russianLocation = $@"c:\Exercise\{projectName}\ru\RU\data.txt";
+Console.WriteLine($"{russianMessage}:\n\t\t{russianLocation}\n");
