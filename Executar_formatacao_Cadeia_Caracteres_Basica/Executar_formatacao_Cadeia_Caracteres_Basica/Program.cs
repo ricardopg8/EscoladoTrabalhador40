@@ -68,3 +68,9 @@ Console.WriteLine($"view English output: \n\t\t{englishLocation}\n");
 string russianMessage = "\u041f\u043e\u0441\u043e\u0442\u0440\u0435\u0442\u044c \u0440\n";
 string russianLocation = $@"c:\Exercise\{projectName}\ru\RU\data.txt";
 Console.WriteLine($"{russianMessage}:\n\t\t{russianLocation}\n");
+
+
+
+string primeiroNome = "Bob";
+string mensagem = "Olá " + primeiroNome;
+Console.WriteLine(mensagem);
